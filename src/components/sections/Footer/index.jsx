@@ -162,7 +162,7 @@ export default function Footer() {
 
                           <li className="flex items-center gap-4">
                             <Image src="/images/footer/icons/email.svg" alt="Email Icon" width={20} height={20}/>
-                            <Link href="mailto:info@khmlogistics.com">info@khmlogistics.com</Link>
+                            <Link href="mailto:support@khmlogistics.com">support@khmlogistics.com</Link>
                           </li>
 
                           <li className="flex items-center gap-4">
