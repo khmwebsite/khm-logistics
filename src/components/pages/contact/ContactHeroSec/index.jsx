@@ -49,7 +49,7 @@ export default function ContactHeroSec() {
                   Location
                 </h3>
                 <p className="text-gray-700 mt-1 text-base leading-relaxed">
-                  D-151, Phase 8, Industrial Area Mohali, Sahibzada Ajit Singh Nagar, Punjab 160071
+                6 KILMER ROAD, EDISON, NJ 08820
                 </p>
               </div>
 
@@ -58,7 +58,7 @@ export default function ContactHeroSec() {
                   Get in Touch
                 </h3>
                 <p className="text-[var(--secondary)] mt-1 font-medium text-lg">
-                  +91 (987) 654-3210
+                  +1 (848) 216-7004
                 </p>
               </div>
 
@@ -67,7 +67,7 @@ export default function ContactHeroSec() {
                   Our Email
                 </h3>
                 <p className="text-[var(--secondary)] mt-1 font-medium text-lg">
-                  info@khmlogistics.com
+                support@khmlogistics.com
                 </p>
               </div>
             </div>

@@ -157,7 +157,7 @@ export default function Footer() {
                         <ul className="grid gap-3">
                           <li className="flex items-center gap-4">
                             <Image src="/images/footer/icons/pin.svg" alt="Address Icon" width={25} height={25}/>
-                            <Link href="https://maps.google.com/?q=6+KILMER+ROAD+EDISON,+NJ+08820">6 KILMER ROAD EDISON, NJ 08820</Link>
+                            <Link href="https://maps.google.com/?q=6+KILMER+ROAD+EDISON,+NJ+08820">6 KILMER ROAD, EDISON, NJ 08820</Link>
                           </li>
 
                           <li className="flex items-center gap-4">
@@ -167,7 +167,7 @@ export default function Footer() {
 
                           <li className="flex items-center gap-4">
                             <Image src="/images/footer/icons/phone.svg" alt="Phone Icon" width={20} height={20}/>
-                            <Link href="tel:+1430960265">0430 960 265</Link>
+                            <Link href="tel:+18482167004">(848) 216-7004</Link>
                           </li>
                         </ul>
                       </div>
