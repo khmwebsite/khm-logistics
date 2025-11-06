@@ -1,0 +1,134 @@
+.HeroBanner {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 80px;
+  }
+  
+  .Overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* fallback */
+    z-index: 1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ContentWrapper {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1000px;
+    padding: 1rem;
+  }
+  
+  .Title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .Description {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 400;    
+    color: #e6e6e6;
+    line-height: 1.6;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Button {
+    display: inline-block;
+    background-color: #0f766e;
+    color: #fff;
+    padding: 0.75rem 1.75rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+  
+  .Button:hover {
+    background-color: #115e59;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .Breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+  }
+  
+  .Breadcrumb a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.25s ease;
+    background: linear-gradient(90deg, #ffffff 0%, #d1fae5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .Breadcrumb a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: var(--secondary);
+    transition: width 0.3s ease;
+  }
+  
+  .Breadcrumb a:hover::after {
+    width: 100%;
+  }
+  
+  .Breadcrumb a:hover {
+    color: var(--secondary);
+    -webkit-text-fill-color: var(--secondary);
+  }
+  
+  .BreadcrumbItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .Separator {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+  }
+  
+  @media (max-width: 768px) {
+    .HeroBanner {
+      height: 70vh;
+    }
+    .Description {
+      font-size: 0.95rem;
+    }
+    .Breadcrumb {
+      font-size: 0.9rem;
+      gap: 0.35rem;
+    }
+  }
+  

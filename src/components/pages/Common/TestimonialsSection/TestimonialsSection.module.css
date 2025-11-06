@@ -1,0 +1,91 @@
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.label {
+  color: #0f766e;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+  font-weight: 700;
+  color: #111827;
+}
+
+
+/* CARD */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #e5e7eb;
+  min-height: 300px;
+}
+
+.text {
+  color: #374151;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 600;
+  color: #111827;
+  font-size: 1.05rem;
+}
+
+.role {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+  .card {
+    padding: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    min-height: 260px;
+  }
+}

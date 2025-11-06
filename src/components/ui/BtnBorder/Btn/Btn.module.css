@@ -1,0 +1,87 @@
+.Btn {
+    background-color:#fff;
+    border: 2px solid var(--primary);
+    color: var(--secondary);
+    font-family: var(--headingfont);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 30px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.Btn.Primary {
+    background-color:var(--primary);
+    border: 2px solid var(--black);
+    color: var(--white);
+}
+.Btn:before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background:var(--primary);
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+}
+.Btn.Primary:before {
+    background:var(--white);
+}
+.BtnTxt {
+    padding-left: 2em;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.TopKey, .BottomKey1, .BottomKey2 {
+    height: 2px;
+    position: absolute;
+    background: var(--white);
+    transition: var(--transition);
+}
+.TopKey {
+    width: 25px;
+    top: -2px;
+    left: 10px;
+}
+
+.BottomKey1 {
+    width: 25px;
+    right: 30px;
+    bottom: -2px;
+}
+
+.BottomKey2 {
+    width: 10px;
+    right: 10px;
+    bottom: -2px;
+}
+@media (min-width:1050px) {
+    .Btn:hover {
+        color: white;
+        background:var(--primary);
+    }
+
+    .Btn:hover:before {
+        width: 0.9375rem;
+        background: white;
+    }
+
+    .Btn:hover .BtnTxt {
+        color: white;
+    }
+
+    .Btn:hover .TopKey {
+        left: -2px;
+    }
+
+    .Btn:hover .BottomKey1,
+    .Btn:hover .BottomKey2 {
+        right: 0;
+
+    }
+}

@@ -1,0 +1,120 @@
+.performance {
+    padding: 100px 0;
+    background: #ffffff;
+    position: relative;
+  }
+  
+  .header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px;
+  }
+  
+  .subtitle {
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 15px;
+  }
+  
+  .title span {
+    color: var(--secondary);
+  }
+  
+  .desc {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  .statsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .statCard {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .statCard::before,
+  .statCard::after {
+    content: "";
+    position: absolute;
+    background: var(--secondary);
+    height: 3px;
+    width: 0;
+    transition: width 0.4s ease;
+  }
+  
+  .statCard::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .statCard::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .statCard:hover::before,
+  .statCard:hover::after {
+    width: 100%;
+  }
+  
+  .statCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 10px;
+  }
+  
+  .descSmall {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .number {
+      font-size: 2rem;
+    }
+  
+    .statCard {
+      padding: 30px 15px;
+    }
+  }
+  
