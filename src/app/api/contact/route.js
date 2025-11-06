@@ -18,7 +18,7 @@ export async function POST(req) {
     
     const adminMail = {
       from: `"Website Inquiry" <${process.env.CONTACT_EMAIL}>`,
-      to: "kumarmanish.amr@gmail.com", // 👈 your inbox
+      to: "support@khmlogistics.com", // 👈 your inbox
       subject: `New Contact Form Message from ${name}`,
       html: `
         <h3>New Quote Request Received</h3>
