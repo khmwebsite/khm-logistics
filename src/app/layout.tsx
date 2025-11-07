@@ -19,6 +19,22 @@ export const metadata = {
     canonical: "https://www.khmlogistics.com",
   },
 
+  // openGraph: {
+  //   type: "website",
+  //   siteName: "KHM Logistics",
+  //   url: "https://www.khmlogistics.com",
+  //   title: "KHM Logistics – Trusted Freight & Logistics Services Nationwide",
+  //   description:
+  //     "Reliable logistics partner delivering freight, warehousing, intermodal, hazmat, and supply chain management solutions across the USA.",
+  //   images: [
+  //     {
+  //       url: "/images/khm-og-img.png",
+  //       width: 1200,
+  //       height: 630,
+  //       alt: "KHM Logistics – Reliable Freight & Logistics Services",
+  //     },
+  //   ],
+  // },
   openGraph: {
     type: "website",
     siteName: "KHM Logistics",
@@ -27,14 +43,15 @@ export const metadata = {
     description:
       "Reliable logistics partner delivering freight, warehousing, intermodal, hazmat, and supply chain management solutions across the USA.",
     images: [
-      {
-        url: "/images/khm-og-img.png",
+      {      
+        url: "https://www.khmlogistics.com/images/khm-og-img.png",
         width: 1200,
         height: 630,
         alt: "KHM Logistics – Reliable Freight & Logistics Services",
       },
     ],
   },
+  
 
   robots: {
     index: true,
