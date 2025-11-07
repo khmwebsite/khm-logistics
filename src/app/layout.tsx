@@ -28,7 +28,7 @@ export const metadata = {
       "Reliable logistics partner delivering freight, warehousing, intermodal, hazmat, and supply chain management solutions across the USA.",
     images: [
       {
-        url: "/khm-og-img.png",
+        url: "/images/khm-og-img.png",
         width: 1200,
         height: 630,
         alt: "KHM Logistics – Reliable Freight & Logistics Services",
