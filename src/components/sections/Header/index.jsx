@@ -136,7 +136,7 @@ const Navigation = [
             </ul>
         </div>
         <div className="flex justify-center gap-4 p-4">           
-            <Link href="/contact-us" className='btn'>
+            <Link href="/contact" className='btn'>
                 <span>Get a Quote</span>
             </Link>
         </div>
