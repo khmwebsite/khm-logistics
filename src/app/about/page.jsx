@@ -5,10 +5,21 @@ import TestimonialsSection from "@/components/pages/Common/TestimonialsSection";
 import StatsSection from "@/components/pages/Home/StatsSection";
 
 export const metadata = {
-  title: "About Us | KHM Logistics - Trusted Logistics & Supply Chain Partner",
+  title: "About Us",
   description:
-    "Learn about KHM Logistics, a trusted name in logistics and supply chain management. We deliver excellence in transportation, warehousing, and freight solutions tailored to your business needs.",
+    "Discover KHM Logistics—our mission, values, experience, and commitment to delivering safe, reliable, and efficient logistics services across the United States.",
+  openGraph: {
+    title: "About KHM Logistics",
+    description:
+      "Learn who we are, our industry expertise, and why businesses nationwide choose KHM Logistics as their trusted logistics partner.",
+    url: "https://www.khmlogistics.com/about-us",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/about-us",
+  },
 };
+
+
     
 export default function About() {
   const aboutFaqs = [

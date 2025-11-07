@@ -5,10 +5,21 @@ import ServicesHero from "@/components/pages/Common/ServicesHero";
 import ServiceBenefits from "@/components/pages/Common/ServiceBenefits";
 
 export const metadata = {
-  title: "Hazmat Logistics | KHM Logistics - Safe Handling of Hazardous Materials",
+  title: "Hazmat Transportation Services",
   description:
-    "KHM Logistics specializes in hazmat transportation. Our certified experts ensure compliance, safety, and precision when moving hazardous materials.",
+    "Certified and compliant hazmat transportation ensuring safe and secure handling of hazardous materials.",
+  openGraph: {
+    title: "Hazmat Transport – KHM Logistics",
+    description:
+      "Specialized hazardous material transport with industry-standard safety practices and trained professionals.",
+    url: "https://www.khmlogistics.com/services/hazmat",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/services/hazmat",
+  },
 };
+
+
    
     
 export default function HazmatServices() { 

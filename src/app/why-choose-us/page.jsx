@@ -2,19 +2,24 @@ import FaqSection from "@/components/pages/Common/FaqSection";
 import HeroBannerCommon from "@/components/pages/Common/HeroBannerCommon";
 import TestimonialsSection from "@/components/pages/Common/TestimonialsSection";
 import StatsSection from "@/components/pages/Home/StatsSection";
-import WhyUsSection from "@/components/pages/Home/WhyUsSection";
 import WhyCoreValues from "@/components/pages/WhyChooseUs/WhyCoreValues";
 import WhyIntroSection from "@/components/pages/WhyChooseUs/WhyIntroSection";
-import WhyPerformanceSection from "@/components/pages/WhyChooseUs/WhyPerformanceSection";
 
 export const metadata = {
-  title: "Why Choose Us | KHM Logistics - Efficiency Meets Reliability",
+  title: "Why Choose Us",
   description:
-    "Discover why businesses trust KHM Logistics. We combine advanced technology, experienced teams, and transparent operations to deliver reliable, efficient logistics every time.",
+    "See why businesses nationwide trust KHM Logistics for reliable logistics, fast deliveries, and industry-leading customer service.",
+  openGraph: {
+    title: "Why Choose KHM Logistics",
+    description:
+      "Discover the key advantages—speed, reliability, safety, and nationwide coverage—that set KHM Logistics apart.",
+    url: "https://www.khmlogistics.com/why-choose-us",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/why-choose-us",
+  },
 };
 
-  
-   
     
 export default function WhyChooseUs() { 
 

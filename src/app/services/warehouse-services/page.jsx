@@ -5,10 +5,21 @@ import ServicesHero from "@/components/pages/Common/ServicesHero";
 import ServiceBenefits from "@/components/pages/Common/ServiceBenefits";
 
 export const metadata = {
-  title: "Warehouse Services | KHM Logistics - Secure & Scalable Storage",
+  title: "Warehouse Services",
   description:
-    "Secure your inventory with KHM Logistics’ modern warehousing solutions. Our facilities provide safe, organized, and scalable storage for all business sizes.",
+    "Secure, spacious, and professionally managed warehouse facilities designed to support your storage and distribution needs.",
+  openGraph: {
+    title: "Warehouse Services – KHM Logistics",
+    description:
+      "Flexible warehousing with inventory management, distribution support, and secure storage.",
+    url: "https://www.khmlogistics.com/services/warehouse",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/services/warehouse",
+  },
 };
+
+
 
     
 export default function WarehouseServices() { 

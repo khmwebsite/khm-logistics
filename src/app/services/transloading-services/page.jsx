@@ -5,10 +5,17 @@ import ServicesHero from "@/components/pages/Common/ServicesHero";
 import ServiceBenefits from "@/components/pages/Common/ServiceBenefits";
 
 export const metadata = {
-  title: "Transloading Services | KHM Logistics - Fast & Flexible Freight Handling",
+  title: "Transloading Services – Efficient Port Handling & Cargo Transfer",
   description:
-    "KHM Logistics offers professional transloading services for efficient cargo transfer between transport modes. Save time and reduce costs with our expert team.",
+    "KHM Logistics provides fast and efficient transloading for containers, pallets, and bulk goods to reduce delays and streamline cargo movement.",
+  openGraph: {
+    title: "Transloading Services",
+    description:
+      "Seamless container handling, cross-docking, and cargo transfer solutions for faster freight flow.",
+    url: "https://www.khmlogistics.com/services/transloading-services",
+  },
 };
+
 
 
 export default function Transloading() {

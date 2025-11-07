@@ -3,6 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Page Not Found – KHM Logistics",
+  description: "This page could not be found on KHM Logistics.",
+  openGraph: {
+    title: "404 – Page Not Found",
+    description: "The requested page does not exist.",
+    url: "https://www.khmlogistics.com/404",
+  },
+};
+
 export default function ErrorPage() {
 return (
     <>

@@ -4,10 +4,21 @@ import SiteCta from "@/components/pages/Common/SiteCta";
 import ServiceSection from "@/components/pages/Home/ServiceSection";
 
 export const metadata = {
-  title: "Our Services | KHM Logistics - Complete Logistics & Freight Solutions",
+  title: "Our Services",
   description:
-    "Explore KHM Logistics’ full range of services including warehousing, intermodal transport, transloading, and hazardous material logistics. We ensure smooth operations from pickup to delivery.",
+    "Explore professional logistics solutions including freight, warehousing, intermodal, transloading, hazmat transport, and complete supply chain operations.",
+  openGraph: {
+    title: "Logistics Services – KHM Logistics",
+    description:
+      "From freight transport to warehousing and supply chain management, KHM Logistics delivers end-to-end logistics services across the USA.",
+    url: "https://www.khmlogistics.com/services",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/services",
+  },
 };
+
+
 
     
 export default function Services() { 

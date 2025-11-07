@@ -5,10 +5,21 @@ import ServicesHero from "@/components/pages/Common/ServicesHero";
 import ServiceBenefits from "@/components/pages/Common/ServiceBenefits";
 
 export const metadata = {
-  title: "Intermodal Services | KHM Logistics - Smarter Transportation Solutions",
+  title: "Intermodal Services",
   description:
-    "Maximize efficiency with KHM Logistics’ intermodal transport services. We combine multiple transport modes for cost-effective, eco-friendly logistics across regions.",
+    "Reliable intermodal transportation solutions combining rail and truck for cost-efficient and eco-friendly freight movement.",
+  openGraph: {
+    title: "Intermodal Services – KHM Logistics",
+    description:
+      "Optimize freight movement with strategic intermodal transport across the USA.",
+    url: "https://www.khmlogistics.com/services/intermodal",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/services/intermodal",
+  },
 };
+
+
  
     
 export default function IntermodalServices() { 

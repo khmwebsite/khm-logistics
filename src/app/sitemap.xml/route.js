@@ -5,7 +5,7 @@ import path from "path";
 
 export async function GET() {
   try {
-    const baseUrl = "https://khmlogistics.com"; // No trailing slash
+    const baseUrl = "https://khmlogistics.com"; 
     const appDir = path.join(process.cwd(), "src", "app");
     const today = new Date().toISOString().split("T")[0];
 

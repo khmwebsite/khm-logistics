@@ -3,10 +3,21 @@ import HeroBannerCommon from "@/components/pages/Common/HeroBannerCommon";
 import ContactHeroSec from "@/components/pages/contact/ContactHeroSec";
 
 export const metadata = {
-  title: "Contact Us | KHM Logistics - Get in Touch Today",
+  title: "Contact Us",
   description:
-    "Have questions or need a quote? Contact KHM Logistics today for professional logistics, warehousing, and supply chain solutions tailored to your needs.",
+    "Get in touch with KHM Logistics for freight quotes, logistics assistance, and nationwide transportation solutions.",
+  openGraph: {
+    title: "Contact KHM Logistics",
+    description:
+      "Reach out to our logistics experts for support, service inquiries, and freight assistance.",
+    url: "https://www.khmlogistics.com/contact-us",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/contact-us",
+  },
 };
+
+
 
 
 export default function Contact() {

@@ -5,10 +5,21 @@ import ServicesHero from "@/components/pages/Common/ServicesHero";
 import ServiceBenefits from "@/components/pages/Common/ServiceBenefits";
 
 export const metadata = {
-  title: "Supply Chain Services | KHM Logistics - Streamlined Operations",
+  title: "Supply Chain Solutions",
   description:
-    "Optimize your supply chain with KHM Logistics. We provide end-to-end management, real-time visibility, and cost-effective logistics solutions for seamless business operations.",
+    "End-to-end supply chain services designed to streamline operations and maximize efficiency for businesses nationwide.",
+  openGraph: {
+    title: "Supply Chain Services – KHM Logistics",
+    description:
+      "Optimize your operations with reliable supply chain management, distribution, and logistics coordination.",
+    url: "https://www.khmlogistics.com/services/supply-chain",
+  },
+  alternates: {
+    canonical: "https://www.khmlogistics.com/services/supply-chain",
+  },
 };
+
+
 
     
 export default function SupplyChain() { 

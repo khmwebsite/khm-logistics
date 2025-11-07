@@ -1,17 +1,19 @@
-// app/robots.txt/route.js
-
 export async function GET() {
-    const content = `
-  User-agent: *
-  Allow: /
-  
-  Sitemap: https://khm-logistics.vercel.app/
-  `
-  
-    return new Response(content.trim(), {
-      headers: {
-        'Content-Type': 'text/plain',
-      },
-    })
-  }
-  
+  const content = `
+User-agent: *
+Allow: /
+
+# Disallow internal Next.js folders
+Disallow: /_next/
+Disallow: /private/
+
+# Your actual sitemap file
+Sitemap: https://www.khmlogistics.com/sitemap.xml
+  `;
+
+  return new Response(content.trim(), {
+    headers: {
+      "Content-Type": "text/plain",
+    },
+  });
+}
