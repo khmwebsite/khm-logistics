@@ -79,7 +79,7 @@ export default function BannerHeroSlider() {
                 </div>
 
                 <div className={styles.HeroButtons}>
-                  <Link href="/contact-us" className="btn">
+                  <Link href="/contact" className="btn">
                     <span>Contact Us</span>
                   </Link>
                 </div>
