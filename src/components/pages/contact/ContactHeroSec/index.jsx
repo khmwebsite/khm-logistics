@@ -41,7 +41,7 @@ export default function ContactHeroSec() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-gray-800">Location</h3>
-                    <p className="text-gray-600 mt-1 leading-relaxed">
+                    <p className="text-[var(--secondary)] mt-1 font-semibold leading-relaxed">
                       6 KILMER ROAD, EDISON, NJ 08820
                     </p>
                   </div>
