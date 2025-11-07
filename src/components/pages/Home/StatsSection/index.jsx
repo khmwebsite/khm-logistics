@@ -71,6 +71,7 @@ const StatsSection = () => {
                 alt="Customer Icon"
                 width={100}
                 height={100}
+                className=" w-[70px] md:w-[100px] h-auto"
               />
               <h3>{stats.customers.toFixed(1)}%</h3>
               <p>Satisfying Customers</p>
@@ -82,6 +83,7 @@ const StatsSection = () => {
                 alt="Shipment Icon"
                 width={100}
                 height={100}
+                className="w-[70px] md:w-[100px] h-auto"
               />
               <h3>{Math.floor(stats.loads).toLocaleString()}+</h3>
               <p>Loads Shipped</p>
@@ -93,6 +95,7 @@ const StatsSection = () => {
                 alt="Happy Clients Icon"
                 width={100}
                 height={100}
+                className=" w-[70px] md:w-[100px] h-auto"
               />
               <h3>{Math.floor(stats.clients)}+</h3>
               <p>Satisfaction & Happy Clients</p>

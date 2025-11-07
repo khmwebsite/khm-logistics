@@ -1,11 +1,10 @@
 .aboutSection {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 2.5rem;   
-    background-color: #fff;
-    padding: 50px 0px;   
+    padding: 100px 0px;   
   }
   
   .imageContainer {
@@ -28,12 +27,12 @@
   
   .content {
     width: 100%;
-    max-width: 600px;
+    max-width:50%;
     border-radius: 30px;
   }
   
   .subheading {
-    color: var(--secondary); /* red tone */
+    color: var(--secondary); 
     font-weight: 600;
     margin-bottom: 0.5rem;
   }
@@ -77,14 +76,20 @@
   }
   
   /* Responsive Layout */
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .aboutSection {
-      flex-direction: row;
-      padding: 100px 0px;    
+      flex-direction: column;
+      padding: 50px 0px;    
+    }
+    .image {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      object-fit: cover;  
     }
   
     .content {
-      max-width: 50%;
+      max-width: 100%;
     }
    
     .heading {

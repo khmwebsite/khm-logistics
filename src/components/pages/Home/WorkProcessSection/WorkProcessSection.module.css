@@ -1,11 +1,9 @@
-/* Wrapper */
 .wrapper {
   background: white;
   position: relative;
   overflow: hidden;
 }
 
-/* Heading */
 .topIntro {
   text-align: center;
   position: relative;
@@ -19,14 +17,12 @@
   line-height: 1.3;
 }
 
-/* Canvas */
 .canvas {
   position: relative;
   padding-top: 10px;
   z-index: 2;
 }
 
-/* SVG Path */
 .pathSvg {
   position: absolute;
   top: 118px;
@@ -38,32 +34,28 @@
   overflow: visible;
 }
 
-/* Steps Grid */
 .stepsRow {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: clamp(20px, 3vw, 36px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 36px;
   position: relative;
   z-index: 3;
   align-items: start;
   justify-items: center;
 }
 
-/* Each Step */
 .step {
   text-align: center;
   padding-top: 30px;
 }
 
-/* Circle Container */
 .circleWrap {
   position: relative;
-  width: clamp(220px, 26vw, 300px);
-  height: clamp(220px, 26vw, 300px);
+  width: clamp(300px, 18vw, 300px);
+  height: clamp(300px, 18vw, 300px);
   margin: 0 auto;
 }
 
-/* Circle Box */
 .circle {
   position: relative;
   width: 100%;
@@ -72,10 +64,9 @@
   overflow: hidden;
   box-shadow: 0 4px 18px rgba(3, 18, 30, 0.06);
   backface-visibility: hidden;
-  transform: translateZ(0); /* force GPU rendering for crispness */
+  transform: translateZ(0);
 }
 
-/* Image */
 .img {
   object-fit: cover;
   image-rendering: -webkit-optimize-contrast;
@@ -85,7 +76,6 @@
   will-change: transform;
 }
 
-/* Overlay */
 .circleOverlay {
   position: absolute;
   inset: 0;
@@ -99,7 +89,6 @@
   pointer-events: none;
 }
 
-/* Badge */
 .badge {
   position: absolute;
   top: -20px;
@@ -119,25 +108,22 @@
   font-size: 18px;
 }
 
-/* Step Title */
 .stepTitle {
   margin-top: 18px;
   margin-bottom: 10px;
-  font-size: clamp(15px, 1.4vw, 18px);
+  font-size: 20px;
   color: #08323a;
   font-weight: 700;
 }
 
-/* Step Description */
 .stepDesc {
   max-width: 280px;
   margin: 0 auto;
   color: #596b74;
-  font-size: clamp(13px, 1.3vw, 15px);
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-/* Hover Effects */
 .step:hover .img {
   transform: scale(1.12);
 }
@@ -173,7 +159,19 @@
     gap: 40px;
   }
   .circleWrap {
-    width: 92%;
-    height: 300px;
+    width: 330px;
+    height: 310px;
+  } 
+
+  .stepDesc {
+    max-width:350px;    
+  }
+}
+
+@media (max-width: 320px) {
+  
+  .circleWrap {
+    width: 280px;
+    height: 280px;
   } 
 }
