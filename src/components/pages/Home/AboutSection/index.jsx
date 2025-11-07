@@ -47,7 +47,7 @@ export default function AboutSection() {
             support cost-effective logistics throughout the USA.
         </p>
 
-        <Link href="/about-us" className={styles.readMoreBtn}>
+        <Link href="/about" className={styles.readMoreBtn}>
             Read More
         </Link>
         </div>
