@@ -177,7 +177,7 @@ export default function Footer() {
                 <div className="footer-bottom border-t-[1px] mt-8 pt-4 md:pb-4">
                   <div className="md:flex justify-center items-center text-center">
                     <div className="text-[14px]">
-                      ©{currentYear}{" "}
+                      {new Date().getFullYear()}
                       <span className={styles.footerLinks}>
                       KHM Logistics Website Development by {" "}
                         <Link
