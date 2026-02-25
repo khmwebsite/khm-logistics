@@ -24,7 +24,7 @@ export default function AboutSection() {
 
         <div className={styles.content}>
         <p className={styles.subheading}>About Us</p>
-         <SectionTitle title=" Our Inspiration For Efficient Cargo Solutions in 2025." />
+         <SectionTitle title=" Our Inspiration For Efficient Cargo Solutions in 2026." />
 
         <p className={styles.text}>
             At{" "}
